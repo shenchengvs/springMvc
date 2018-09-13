@@ -1,0 +1,571 @@
+2018-09-12 14:40:13  INFO DataJob:48 - run
+2018-09-12 14:40:13  INFO DataJob:48 - run
+2018-09-12 14:40:13  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912453" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:13  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912729" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:13  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:40:13  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":0,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 14:40:13  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:13  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:13  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912155" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:13  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912014" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:13  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":0,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 14:40:13  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:40:13  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:13  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:13  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912826" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:13  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":0,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 14:40:13  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:48 - run
+2018-09-12 14:40:14  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912197" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:40:14  INFO DataJob:48 - run
+2018-09-12 14:40:14  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912402" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:40:14  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912857" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":1,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 14:40:14  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912172" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":1,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 14:40:14  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912157" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":1,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 14:40:14  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:48 - run
+2018-09-12 14:40:14  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912345" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:40:14  INFO DataJob:48 - run
+2018-09-12 14:40:14  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912131" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":2,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 14:40:14  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912438" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:40:14  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912081" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":2,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 14:40:14  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912121" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:40:14  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":2,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 14:40:14  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:40:15  INFO DataJob:48 - run
+2018-09-12 14:40:15  INFO DataJob:48 - run
+2018-09-12 14:40:20  INFO DataJob:48 - run
+2018-09-12 14:40:20  INFO DataJob:48 - run
+2018-09-12 14:40:20  INFO DataJob:50 - break
+2018-09-12 14:40:25  INFO DataJob:48 - run
+2018-09-12 14:40:30  INFO DataJob:48 - run
+2018-09-12 14:40:35  INFO DataJob:48 - run
+2018-09-12 14:40:40  INFO DataJob:48 - run
+2018-09-12 14:40:45  INFO DataJob:48 - run
+2018-09-12 14:40:50  INFO DataJob:48 - run
+2018-09-12 14:40:55  INFO DataJob:48 - run
+2018-09-12 14:41:00  INFO DataJob:48 - run
+2018-09-12 14:41:05  INFO DataJob:48 - run
+2018-09-12 14:41:10  INFO DataJob:48 - run
+2018-09-12 14:41:15  INFO DataJob:48 - run
+2018-09-12 14:41:20  INFO DataJob:48 - run
+2018-09-12 14:41:20  INFO DataJob:50 - break
+2018-09-12 14:52:09  INFO DataJob:48 - run
+2018-09-12 14:52:09  INFO DataJob:48 - run
+2018-09-12 14:52:09  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912068" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912245" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":0,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 14:52:09  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:52:09  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912466" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:52:09  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912481" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":0,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 14:52:09  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912975" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":0,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 14:52:09  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:48 - run
+2018-09-12 14:52:09  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912767" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:52:09  INFO DataJob:48 - run
+2018-09-12 14:52:09  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912952" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":1,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 14:52:09  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912158" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:52:09  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912162" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":1,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 14:52:09  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912194" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:09  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":1,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 14:52:09  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:48 - run
+2018-09-12 14:52:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912043" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:52:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912457" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 14:52:10  INFO DataJob:48 - run
+2018-09-12 14:52:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912877" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":2,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 14:52:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912147" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":2,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 14:52:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912943" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":2,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 14:52:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 14:52:10  INFO DataJob:48 - run
+2018-09-12 14:52:10  INFO DataJob:48 - run
+2018-09-12 14:52:15  INFO DataJob:48 - run
+2018-09-12 14:52:15  INFO DataJob:48 - run
+2018-09-12 14:52:15  INFO DataJob:50 - break
+2018-09-12 14:52:20  INFO DataJob:48 - run
+2018-09-12 14:52:25  INFO DataJob:48 - run
+2018-09-12 14:52:30  INFO DataJob:48 - run
+2018-09-12 14:52:35  INFO DataJob:48 - run
+2018-09-12 14:52:40  INFO DataJob:48 - run
+2018-09-12 14:52:45  INFO DataJob:48 - run
+2018-09-12 14:52:50  INFO DataJob:48 - run
+2018-09-12 14:52:55  INFO DataJob:48 - run
+2018-09-12 14:53:00  INFO DataJob:48 - run
+2018-09-12 14:53:05  INFO DataJob:48 - run
+2018-09-12 14:53:10  INFO DataJob:48 - run
+2018-09-12 14:53:15  INFO DataJob:48 - run
+2018-09-12 14:53:15  INFO DataJob:50 - break
+2018-09-12 15:00:41  INFO DataJob:48 - run
+2018-09-12 15:00:41  INFO DataJob:48 - run
+2018-09-12 15:00:41  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912701" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:41  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912040" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:41  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":0,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:00:41  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:00:41  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:41  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:41  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912549" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:41  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:00:41  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912260" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:41  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":0,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:00:41  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:41  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:41  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912571" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:41  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":0,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:00:41  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:48 - run
+2018-09-12 15:00:42  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912418" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:00:42  INFO DataJob:48 - run
+2018-09-12 15:00:42  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912498" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":1,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:00:42  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912559" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:00:42  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912456" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":1,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:00:42  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912596" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":1,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:00:42  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:48 - run
+2018-09-12 15:00:42  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912158" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:00:42  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912114" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:00:42  INFO DataJob:48 - run
+2018-09-12 15:00:42  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912680" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":2,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:00:42  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912230" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":2,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:00:42  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912154" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:00:42  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":2,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:00:42  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:00:43  INFO DataJob:48 - run
+2018-09-12 15:00:43  INFO DataJob:48 - run
+2018-09-12 15:00:48  INFO DataJob:48 - run
+2018-09-12 15:00:48  INFO DataJob:48 - run
+2018-09-12 15:00:48  INFO DataJob:50 - break
+2018-09-12 15:00:53  INFO DataJob:48 - run
+2018-09-12 15:00:58  INFO DataJob:48 - run
+2018-09-12 15:01:03  INFO DataJob:48 - run
+2018-09-12 15:01:08  INFO DataJob:48 - run
+2018-09-12 15:01:13  INFO DataJob:48 - run
+2018-09-12 15:01:18  INFO DataJob:48 - run
+2018-09-12 15:01:23  INFO DataJob:48 - run
+2018-09-12 15:01:28  INFO DataJob:48 - run
+2018-09-12 15:01:33  INFO DataJob:48 - run
+2018-09-12 15:01:38  INFO DataJob:48 - run
+2018-09-12 15:01:43  INFO DataJob:48 - run
+2018-09-12 15:01:48  INFO DataJob:48 - run
+2018-09-12 15:01:48  INFO DataJob:50 - break
+2018-09-12 15:05:24  INFO DataJob:48 - run
+2018-09-12 15:05:24  INFO DataJob:48 - run
+2018-09-12 15:05:24  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912900" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912914" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:05:24  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":0,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:05:24  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912937" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912802" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":0,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:05:24  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:05:24  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912208" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":0,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:05:24  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:48 - run
+2018-09-12 15:05:24  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912404" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:05:24  INFO DataJob:48 - run
+2018-09-12 15:05:24  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912696" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:05:24  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912176" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":1,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:05:24  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912023" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":1,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:05:24  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912709" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:24  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":1,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:05:24  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:48 - run
+2018-09-12 15:05:25  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912885" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:05:25  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912337" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:05:25  INFO DataJob:48 - run
+2018-09-12 15:05:25  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912094" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":2,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:05:25  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912277" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":2,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:05:25  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912678" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":2,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:05:25  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:05:25  INFO DataJob:48 - run
+2018-09-12 15:05:25  INFO DataJob:48 - run
+2018-09-12 15:06:28  INFO DataJob:48 - run
+2018-09-12 15:06:28  INFO DataJob:48 - run
+2018-09-12 15:06:28  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912423" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912003" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:06:28  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":0,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:06:28  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912929" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":0,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:06:28  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912551" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:06:28  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912372" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":0,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:06:28  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:48 - run
+2018-09-12 15:06:28  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912296" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:06:28  INFO DataJob:48 - run
+2018-09-12 15:06:28  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912282" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":1,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:06:28  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912683" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":1,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:06:28  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912133" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":1,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:06:28  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912826" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:06:28  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:28  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:48 - run
+2018-09-12 15:06:29  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912763" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:06:29  INFO DataJob:48 - run
+2018-09-12 15:06:29  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912492" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":2,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:06:29  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912807" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":2,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:06:29  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912764" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":2,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:06:29  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912817" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:06:29  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:06:29  INFO DataJob:48 - run
+2018-09-12 15:06:29  INFO DataJob:48 - run
+2018-09-12 15:06:34  INFO DataJob:48 - run
+2018-09-12 15:06:34  INFO DataJob:50 - break
+2018-09-12 15:06:34  INFO DataJob:48 - run
+2018-09-12 15:06:39  INFO DataJob:48 - run
+2018-09-12 15:06:44  INFO DataJob:48 - run
+2018-09-12 15:06:49  INFO DataJob:48 - run
+2018-09-12 15:06:54  INFO DataJob:48 - run
+2018-09-12 15:06:59  INFO DataJob:48 - run
+2018-09-12 15:07:04  INFO DataJob:48 - run
+2018-09-12 15:07:10  INFO DataJob:48 - run
+2018-09-12 15:07:10  INFO DataJob:48 - run
+2018-09-12 15:07:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912147" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912932" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:07:10  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":0,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:07:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912535" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":0,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:07:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912892" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":0,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:07:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912526" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":0,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:07:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:48 - run
+2018-09-12 15:07:10  INFO DataJob:48 - run
+2018-09-12 15:07:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912205" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:07:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912708" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":1,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:07:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912136" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":1,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:07:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912969" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":1,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:07:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912964" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:10  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":1,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:07:10  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:48 - run
+2018-09-12 15:07:11  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912510" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>142:091700229786</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700229786","pointOrder":"142","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:07:11  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912942" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>4473173D1197</termaddr><mpaddr>184:091700227361</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:107 - Thread[pool-1-thread-2,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700227361","pointOrder":"184","queryCount":2,"rtuAddr":"4473173D1197","status":0,"step":1}
+2018-09-12 15:07:11  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:48 - run
+2018-09-12 15:07:11  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912866" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005027</termaddr><mpaddr>248:091700144678</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700144678","pointOrder":"248","queryCount":2,"rtuAddr":"440851005027","status":0,"step":1}
+2018-09-12 15:07:11  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912813" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440851005021</termaddr><mpaddr>538:091700065620</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700065620","pointOrder":"538","queryCount":2,"rtuAddr":"440851005021","status":0,"step":1}
+2018-09-12 15:07:11  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:106 - 请求:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180912856" mode="showrawdata"><city>14</city><cmd cmdtype="sys">67</cmd><termaddr>440877002850</termaddr><mpaddr>80:091700201118</mpaddr><protocol>nwsg-07</protocol><ttl>60</ttl><items itemtype="inner"><item id="04000101"></item></items><aux><info name="CommPort">31</info><info name="BaudRate">8</info><info name="CheckType">1</info><info name="DataBit">8</info><info name="StopBit">0</info><info name="RelayTimeOut">9</info></aux></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:107 - Thread[pool-1-thread-1,5,main]---pointVo:====={"commPort":"31","pointAddr":"091700201118","pointOrder":"80","queryCount":2,"rtuAddr":"440877002850","status":0,"step":1}
+2018-09-12 15:07:11  INFO DataJob:115 - 返回:<?xml version="1.0" encoding="UTF-8"?>
+<tasks><task id="20180827001"><cmd cmdtype="sys">67</cmd><termaddr>4414010FB24D</termaddr><mpaddr>2:091700408525</mpaddr><protocol>nwsg-07</protocol><ttl>30</ttl><items itemtype="sys"><item id="04000101">18090705</item></items><status>0</status><message>成功</message></task></tasks>
+2018-09-12 15:07:11  INFO DataJob:48 - run
+2018-09-12 15:07:11  INFO DataJob:48 - run
+2018-09-12 15:07:16  INFO DataJob:48 - run
+2018-09-12 15:07:16  INFO DataJob:48 - run
+2018-09-12 15:07:16  INFO DataJob:50 - break
+2018-09-12 15:07:21  INFO DataJob:48 - run
+2018-09-12 15:07:26  INFO DataJob:48 - run
+2018-09-12 15:07:31  INFO DataJob:48 - run
+2018-09-12 15:07:36  INFO DataJob:48 - run
+2018-09-12 15:07:41  INFO DataJob:48 - run
+2018-09-12 15:07:46  INFO DataJob:48 - run
+2018-09-12 15:07:51  INFO DataJob:48 - run
+2018-09-12 15:07:56  INFO DataJob:48 - run
+2018-09-12 15:08:01  INFO DataJob:48 - run
+2018-09-12 15:08:06  INFO DataJob:48 - run
+2018-09-12 15:08:11  INFO DataJob:48 - run
+2018-09-12 15:08:16  INFO DataJob:48 - run
+2018-09-12 15:08:16  INFO DataJob:50 - break

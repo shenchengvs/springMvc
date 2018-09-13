@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tasks>
+<task id="20131205001" mode="showrawdata">
+<city>19</city>
+<cmd cmdtype="sys">73</cmd>
+<termaddr>4414010FB24D</termaddr>
+<mpaddr>2:091700408525</mpaddr>
+<protocol>nwsg-07</protocol>
+<ttl>60</ttl>
+<items itemtype="inner">
+<item id="A6A6A6A6">00</item>
+</items>
+<aux>  
+<info name="CommPort">31</info>
+<info name="BaudRate">8</info>
+<info name="CheckType">1</info>
+<info name="DataBit">8</info>
+<info name="StopBit">0</info>
+<info name="RelayTimeOut">9</info>   
+<info name="AmmCtrlPasswd">AA049757</info>
+<info name="OperCode">0000</info>
+</aux>
+</task>
+</tasks>

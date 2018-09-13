@@ -1,0 +1,22 @@
+2018-08-31 08:50:39  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-08-31 08:50:39  INFO Main:58 -  [DUBBO] Use container type([spring]) to run dubbo serivce., dubbo version: 2.5.3, current host: 127.0.0.1
+2018-08-31 08:50:39 DEBUG StandardEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-08-31 08:50:39 DEBUG StandardEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-08-31 08:50:39 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-08-31 08:50:39  INFO ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@42ad08de: startup date [Fri Aug 31 08:50:39 CST 2018]; root of context hierarchy
+2018-08-31 08:50:39 DEBUG StandardEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-08-31 08:50:39 DEBUG StandardEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-08-31 08:50:39 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-08-31 08:50:39 DEBUG PathMatchingResourcePatternResolver:354 - Resolved location pattern [classpath*:META-INF/spring/*.xml] to resources []
+2018-08-31 08:50:39 DEBUG XmlBeanDefinitionReader:223 - Loaded 0 bean definitions from location pattern [classpath*:META-INF/spring/*.xml]
+2018-08-31 08:50:39 DEBUG ClassPathXmlApplicationContext:543 - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@42ad08de: org.springframework.beans.factory.support.DefaultListableBeanFactory@7b28e644: defining beans []; root of factory hierarchy
+2018-08-31 08:50:39 DEBUG ClassPathXmlApplicationContext:649 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@121157c9]
+2018-08-31 08:50:39 DEBUG ClassPathXmlApplicationContext:673 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@53330681]
+2018-08-31 08:50:39 DEBUG DefaultListableBeanFactory:669 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b28e644: defining beans []; root of factory hierarchy
+2018-08-31 08:50:39 DEBUG ClassPathXmlApplicationContext:700 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@276ac534]
+2018-08-31 08:50:39 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-08-31 08:50:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-08-31 08:50:39 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-08-31 08:50:39 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-08-31 08:50:39 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-08-31 08:50:39  INFO Main:81 -  [DUBBO] Dubbo SpringContainer started!, dubbo version: 2.5.3, current host: 127.0.0.1

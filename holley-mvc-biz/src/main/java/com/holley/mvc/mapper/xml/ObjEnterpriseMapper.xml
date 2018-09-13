@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.holley.mvc.mapper.ObjEnterpriseMapper" >
+  <resultMap id="BaseResultMap" type="com.holley.mvc.model.ObjEnterprise" >
+    <id column="EID" property="eid" jdbcType="INTEGER" />
+    <result column="DISC" property="disc" jdbcType="VARCHAR" />
+    <result column="ABBR" property="abbr" jdbcType="VARCHAR" />
+    <result column="ECODE" property="ecode" jdbcType="VARCHAR" />
+    <result column="CORPORATIONID" property="corporationid" jdbcType="VARCHAR" />
+    <result column="BUSINESS" property="business" jdbcType="DECIMAL" />
+    <result column="GRADE" property="grade" jdbcType="DECIMAL" />
+    <result column="ACTIVITIES" property="activities" jdbcType="VARCHAR" />
+    <result column="CITY" property="city" jdbcType="DECIMAL" />
+    <result column="REGISTERNUM" property="registernum" jdbcType="VARCHAR" />
+    <result column="REGISTERADDRESS" property="registeraddress" jdbcType="VARCHAR" />
+    <result column="PRODUCTIONADDRESS" property="productionaddress" jdbcType="VARCHAR" />
+    <result column="LINKMAN" property="linkman" jdbcType="VARCHAR" />
+    <result column="TELEPHONE" property="telephone" jdbcType="VARCHAR" />
+    <result column="MOBILE" property="mobile" jdbcType="VARCHAR" />
+    <result column="EMAIL" property="email" jdbcType="VARCHAR" />
+    <result column="FAX" property="fax" jdbcType="VARCHAR" />
+    <result column="ZIPCODE" property="zipcode" jdbcType="VARCHAR" />
+    <result column="LEGALPERSON" property="legalperson" jdbcType="VARCHAR" />
+    <result column="ALIPAY" property="alipay" jdbcType="VARCHAR" />
+    <result column="WECHAT" property="wechat" jdbcType="VARCHAR" />
+    <result column="PASSAUTHENTICATION" property="passauthentication" jdbcType="DECIMAL" />
+    <result column="HASCERTIFICATE" property="hascertificate" jdbcType="DECIMAL" />
+    <result column="GETTIME" property="gettime" jdbcType="VARCHAR" />
+    <result column="ANNUALSALES" property="annualsales" jdbcType="VARCHAR" />
+    <result column="ANNUALTAX" property="annualtax" jdbcType="VARCHAR" />
+    <result column="ANNUALADDEDENERGY" property="annualaddedenergy" jdbcType="DECIMAL" />
+    <result column="ANNUALENERGY" property="annualenergy" jdbcType="DECIMAL" />
+    <result column="LONGITUDE" property="longitude" jdbcType="DECIMAL" />
+    <result column="LATITUDE" property="latitude" jdbcType="DECIMAL" />
+    <result column="ETYPE" property="etype" jdbcType="DECIMAL" />
+    <result column="OWNERID" property="ownerid" jdbcType="DECIMAL" />
+    <result column="OWNERTYPE" property="ownertype" jdbcType="DECIMAL" />
+    <result column="SYSTEMNAME" property="systemname" jdbcType="VARCHAR" />
+    <result column="UPDATETIME" property="updatetime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    EID, DISC, ABBR, ECODE, CORPORATIONID, BUSINESS, GRADE, ACTIVITIES, CITY, REGISTERNUM, 
+    REGISTERADDRESS, PRODUCTIONADDRESS, LINKMAN, TELEPHONE, MOBILE, EMAIL, FAX, ZIPCODE, 
+    LEGALPERSON, ALIPAY, WECHAT, PASSAUTHENTICATION, HASCERTIFICATE, GETTIME, ANNUALSALES, 
+    ANNUALTAX, ANNUALADDEDENERGY, ANNUALENERGY, LONGITUDE, LATITUDE, ETYPE, OWNERID, 
+    OWNERTYPE, SYSTEMNAME, UPDATETIME
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.holley.mvc.model.ObjEnterpriseExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from obj_enterprise
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from obj_enterprise
+    where EID = #{eid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from obj_enterprise
+    where EID = #{eid,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.holley.mvc.model.ObjEnterpriseExample" >
+    delete from obj_enterprise
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.holley.mvc.model.ObjEnterprise" >
+    insert into obj_enterprise (EID, DISC, ABBR, 
+      ECODE, CORPORATIONID, BUSINESS, 
+      GRADE, ACTIVITIES, CITY, 
+      REGISTERNUM, REGISTERADDRESS, PRODUCTIONADDRESS, 
+      LINKMAN, TELEPHONE, MOBILE, 
+      EMAIL, FAX, ZIPCODE, 
+      LEGALPERSON, ALIPAY, WECHAT, 
+      PASSAUTHENTICATION, HASCERTIFICATE, GETTIME, 
+      ANNUALSALES, ANNUALTAX, ANNUALADDEDENERGY, 
+      ANNUALENERGY, LONGITUDE, LATITUDE, 
+      ETYPE, OWNERID, OWNERTYPE, 
+      SYSTEMNAME, UPDATETIME)
+    values (#{eid,jdbcType=INTEGER}, #{disc,jdbcType=VARCHAR}, #{abbr,jdbcType=VARCHAR}, 
+      #{ecode,jdbcType=VARCHAR}, #{corporationid,jdbcType=VARCHAR}, #{business,jdbcType=DECIMAL}, 
+      #{grade,jdbcType=DECIMAL}, #{activities,jdbcType=VARCHAR}, #{city,jdbcType=DECIMAL}, 
+      #{registernum,jdbcType=VARCHAR}, #{registeraddress,jdbcType=VARCHAR}, #{productionaddress,jdbcType=VARCHAR}, 
+      #{linkman,jdbcType=VARCHAR}, #{telephone,jdbcType=VARCHAR}, #{mobile,jdbcType=VARCHAR}, 
+      #{email,jdbcType=VARCHAR}, #{fax,jdbcType=VARCHAR}, #{zipcode,jdbcType=VARCHAR}, 
+      #{legalperson,jdbcType=VARCHAR}, #{alipay,jdbcType=VARCHAR}, #{wechat,jdbcType=VARCHAR}, 
+      #{passauthentication,jdbcType=DECIMAL}, #{hascertificate,jdbcType=DECIMAL}, #{gettime,jdbcType=VARCHAR}, 
+      #{annualsales,jdbcType=VARCHAR}, #{annualtax,jdbcType=VARCHAR}, #{annualaddedenergy,jdbcType=DECIMAL}, 
+      #{annualenergy,jdbcType=DECIMAL}, #{longitude,jdbcType=DECIMAL}, #{latitude,jdbcType=DECIMAL}, 
+      #{etype,jdbcType=DECIMAL}, #{ownerid,jdbcType=DECIMAL}, #{ownertype,jdbcType=DECIMAL}, 
+      #{systemname,jdbcType=VARCHAR}, #{updatetime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.holley.mvc.model.ObjEnterprise" >
+    insert into obj_enterprise
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="eid != null" >
+        EID,
+      </if>
+      <if test="disc != null" >
+        DISC,
+      </if>
+      <if test="abbr != null" >
+        ABBR,
+      </if>
+      <if test="ecode != null" >
+        ECODE,
+      </if>
+      <if test="corporationid != null" >
+        CORPORATIONID,
+      </if>
+      <if test="business != null" >
+        BUSINESS,
+      </if>
+      <if test="grade != null" >
+        GRADE,
+      </if>
+      <if test="activities != null" >
+        ACTIVITIES,
+      </if>
+      <if test="city != null" >
+        CITY,
+      </if>
+      <if test="registernum != null" >
+        REGISTERNUM,
+      </if>
+      <if test="registeraddress != null" >
+        REGISTERADDRESS,
+      </if>
+      <if test="productionaddress != null" >
+        PRODUCTIONADDRESS,
+      </if>
+      <if test="linkman != null" >
+        LINKMAN,
+      </if>
+      <if test="telephone != null" >
+        TELEPHONE,
+      </if>
+      <if test="mobile != null" >
+        MOBILE,
+      </if>
+      <if test="email != null" >
+        EMAIL,
+      </if>
+      <if test="fax != null" >
+        FAX,
+      </if>
+      <if test="zipcode != null" >
+        ZIPCODE,
+      </if>
+      <if test="legalperson != null" >
+        LEGALPERSON,
+      </if>
+      <if test="alipay != null" >
+        ALIPAY,
+      </if>
+      <if test="wechat != null" >
+        WECHAT,
+      </if>
+      <if test="passauthentication != null" >
+        PASSAUTHENTICATION,
+      </if>
+      <if test="hascertificate != null" >
+        HASCERTIFICATE,
+      </if>
+      <if test="gettime != null" >
+        GETTIME,
+      </if>
+      <if test="annualsales != null" >
+        ANNUALSALES,
+      </if>
+      <if test="annualtax != null" >
+        ANNUALTAX,
+      </if>
+      <if test="annualaddedenergy != null" >
+        ANNUALADDEDENERGY,
+      </if>
+      <if test="annualenergy != null" >
+        ANNUALENERGY,
+      </if>
+      <if test="longitude != null" >
+        LONGITUDE,
+      </if>
+      <if test="latitude != null" >
+        LATITUDE,
+      </if>
+      <if test="etype != null" >
+        ETYPE,
+      </if>
+      <if test="ownerid != null" >
+        OWNERID,
+      </if>
+      <if test="ownertype != null" >
+        OWNERTYPE,
+      </if>
+      <if test="systemname != null" >
+        SYSTEMNAME,
+      </if>
+      <if test="updatetime != null" >
+        UPDATETIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="eid != null" >
+        #{eid,jdbcType=INTEGER},
+      </if>
+      <if test="disc != null" >
+        #{disc,jdbcType=VARCHAR},
+      </if>
+      <if test="abbr != null" >
+        #{abbr,jdbcType=VARCHAR},
+      </if>
+      <if test="ecode != null" >
+        #{ecode,jdbcType=VARCHAR},
+      </if>
+      <if test="corporationid != null" >
+        #{corporationid,jdbcType=VARCHAR},
+      </if>
+      <if test="business != null" >
+        #{business,jdbcType=DECIMAL},
+      </if>
+      <if test="grade != null" >
+        #{grade,jdbcType=DECIMAL},
+      </if>
+      <if test="activities != null" >
+        #{activities,jdbcType=VARCHAR},
+      </if>
+      <if test="city != null" >
+        #{city,jdbcType=DECIMAL},
+      </if>
+      <if test="registernum != null" >
+        #{registernum,jdbcType=VARCHAR},
+      </if>
+      <if test="registeraddress != null" >
+        #{registeraddress,jdbcType=VARCHAR},
+      </if>
+      <if test="productionaddress != null" >
+        #{productionaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="linkman != null" >
+        #{linkman,jdbcType=VARCHAR},
+      </if>
+      <if test="telephone != null" >
+        #{telephone,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null" >
+        #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="fax != null" >
+        #{fax,jdbcType=VARCHAR},
+      </if>
+      <if test="zipcode != null" >
+        #{zipcode,jdbcType=VARCHAR},
+      </if>
+      <if test="legalperson != null" >
+        #{legalperson,jdbcType=VARCHAR},
+      </if>
+      <if test="alipay != null" >
+        #{alipay,jdbcType=VARCHAR},
+      </if>
+      <if test="wechat != null" >
+        #{wechat,jdbcType=VARCHAR},
+      </if>
+      <if test="passauthentication != null" >
+        #{passauthentication,jdbcType=DECIMAL},
+      </if>
+      <if test="hascertificate != null" >
+        #{hascertificate,jdbcType=DECIMAL},
+      </if>
+      <if test="gettime != null" >
+        #{gettime,jdbcType=VARCHAR},
+      </if>
+      <if test="annualsales != null" >
+        #{annualsales,jdbcType=VARCHAR},
+      </if>
+      <if test="annualtax != null" >
+        #{annualtax,jdbcType=VARCHAR},
+      </if>
+      <if test="annualaddedenergy != null" >
+        #{annualaddedenergy,jdbcType=DECIMAL},
+      </if>
+      <if test="annualenergy != null" >
+        #{annualenergy,jdbcType=DECIMAL},
+      </if>
+      <if test="longitude != null" >
+        #{longitude,jdbcType=DECIMAL},
+      </if>
+      <if test="latitude != null" >
+        #{latitude,jdbcType=DECIMAL},
+      </if>
+      <if test="etype != null" >
+        #{etype,jdbcType=DECIMAL},
+      </if>
+      <if test="ownerid != null" >
+        #{ownerid,jdbcType=DECIMAL},
+      </if>
+      <if test="ownertype != null" >
+        #{ownertype,jdbcType=DECIMAL},
+      </if>
+      <if test="systemname != null" >
+        #{systemname,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null" >
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.holley.mvc.model.ObjEnterpriseExample" resultType="java.lang.Integer" >
+    select count(*) from obj_enterprise
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update obj_enterprise
+    <set >
+      <if test="record.eid != null" >
+        EID = #{record.eid,jdbcType=INTEGER},
+      </if>
+      <if test="record.disc != null" >
+        DISC = #{record.disc,jdbcType=VARCHAR},
+      </if>
+      <if test="record.abbr != null" >
+        ABBR = #{record.abbr,jdbcType=VARCHAR},
+      </if>
+      <if test="record.ecode != null" >
+        ECODE = #{record.ecode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.corporationid != null" >
+        CORPORATIONID = #{record.corporationid,jdbcType=VARCHAR},
+      </if>
+      <if test="record.business != null" >
+        BUSINESS = #{record.business,jdbcType=DECIMAL},
+      </if>
+      <if test="record.grade != null" >
+        GRADE = #{record.grade,jdbcType=DECIMAL},
+      </if>
+      <if test="record.activities != null" >
+        ACTIVITIES = #{record.activities,jdbcType=VARCHAR},
+      </if>
+      <if test="record.city != null" >
+        CITY = #{record.city,jdbcType=DECIMAL},
+      </if>
+      <if test="record.registernum != null" >
+        REGISTERNUM = #{record.registernum,jdbcType=VARCHAR},
+      </if>
+      <if test="record.registeraddress != null" >
+        REGISTERADDRESS = #{record.registeraddress,jdbcType=VARCHAR},
+      </if>
+      <if test="record.productionaddress != null" >
+        PRODUCTIONADDRESS = #{record.productionaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="record.linkman != null" >
+        LINKMAN = #{record.linkman,jdbcType=VARCHAR},
+      </if>
+      <if test="record.telephone != null" >
+        TELEPHONE = #{record.telephone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.mobile != null" >
+        MOBILE = #{record.mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="record.email != null" >
+        EMAIL = #{record.email,jdbcType=VARCHAR},
+      </if>
+      <if test="record.fax != null" >
+        FAX = #{record.fax,jdbcType=VARCHAR},
+      </if>
+      <if test="record.zipcode != null" >
+        ZIPCODE = #{record.zipcode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.legalperson != null" >
+        LEGALPERSON = #{record.legalperson,jdbcType=VARCHAR},
+      </if>
+      <if test="record.alipay != null" >
+        ALIPAY = #{record.alipay,jdbcType=VARCHAR},
+      </if>
+      <if test="record.wechat != null" >
+        WECHAT = #{record.wechat,jdbcType=VARCHAR},
+      </if>
+      <if test="record.passauthentication != null" >
+        PASSAUTHENTICATION = #{record.passauthentication,jdbcType=DECIMAL},
+      </if>
+      <if test="record.hascertificate != null" >
+        HASCERTIFICATE = #{record.hascertificate,jdbcType=DECIMAL},
+      </if>
+      <if test="record.gettime != null" >
+        GETTIME = #{record.gettime,jdbcType=VARCHAR},
+      </if>
+      <if test="record.annualsales != null" >
+        ANNUALSALES = #{record.annualsales,jdbcType=VARCHAR},
+      </if>
+      <if test="record.annualtax != null" >
+        ANNUALTAX = #{record.annualtax,jdbcType=VARCHAR},
+      </if>
+      <if test="record.annualaddedenergy != null" >
+        ANNUALADDEDENERGY = #{record.annualaddedenergy,jdbcType=DECIMAL},
+      </if>
+      <if test="record.annualenergy != null" >
+        ANNUALENERGY = #{record.annualenergy,jdbcType=DECIMAL},
+      </if>
+      <if test="record.longitude != null" >
+        LONGITUDE = #{record.longitude,jdbcType=DECIMAL},
+      </if>
+      <if test="record.latitude != null" >
+        LATITUDE = #{record.latitude,jdbcType=DECIMAL},
+      </if>
+      <if test="record.etype != null" >
+        ETYPE = #{record.etype,jdbcType=DECIMAL},
+      </if>
+      <if test="record.ownerid != null" >
+        OWNERID = #{record.ownerid,jdbcType=DECIMAL},
+      </if>
+      <if test="record.ownertype != null" >
+        OWNERTYPE = #{record.ownertype,jdbcType=DECIMAL},
+      </if>
+      <if test="record.systemname != null" >
+        SYSTEMNAME = #{record.systemname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.updatetime != null" >
+        UPDATETIME = #{record.updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update obj_enterprise
+    set EID = #{record.eid,jdbcType=INTEGER},
+      DISC = #{record.disc,jdbcType=VARCHAR},
+      ABBR = #{record.abbr,jdbcType=VARCHAR},
+      ECODE = #{record.ecode,jdbcType=VARCHAR},
+      CORPORATIONID = #{record.corporationid,jdbcType=VARCHAR},
+      BUSINESS = #{record.business,jdbcType=DECIMAL},
+      GRADE = #{record.grade,jdbcType=DECIMAL},
+      ACTIVITIES = #{record.activities,jdbcType=VARCHAR},
+      CITY = #{record.city,jdbcType=DECIMAL},
+      REGISTERNUM = #{record.registernum,jdbcType=VARCHAR},
+      REGISTERADDRESS = #{record.registeraddress,jdbcType=VARCHAR},
+      PRODUCTIONADDRESS = #{record.productionaddress,jdbcType=VARCHAR},
+      LINKMAN = #{record.linkman,jdbcType=VARCHAR},
+      TELEPHONE = #{record.telephone,jdbcType=VARCHAR},
+      MOBILE = #{record.mobile,jdbcType=VARCHAR},
+      EMAIL = #{record.email,jdbcType=VARCHAR},
+      FAX = #{record.fax,jdbcType=VARCHAR},
+      ZIPCODE = #{record.zipcode,jdbcType=VARCHAR},
+      LEGALPERSON = #{record.legalperson,jdbcType=VARCHAR},
+      ALIPAY = #{record.alipay,jdbcType=VARCHAR},
+      WECHAT = #{record.wechat,jdbcType=VARCHAR},
+      PASSAUTHENTICATION = #{record.passauthentication,jdbcType=DECIMAL},
+      HASCERTIFICATE = #{record.hascertificate,jdbcType=DECIMAL},
+      GETTIME = #{record.gettime,jdbcType=VARCHAR},
+      ANNUALSALES = #{record.annualsales,jdbcType=VARCHAR},
+      ANNUALTAX = #{record.annualtax,jdbcType=VARCHAR},
+      ANNUALADDEDENERGY = #{record.annualaddedenergy,jdbcType=DECIMAL},
+      ANNUALENERGY = #{record.annualenergy,jdbcType=DECIMAL},
+      LONGITUDE = #{record.longitude,jdbcType=DECIMAL},
+      LATITUDE = #{record.latitude,jdbcType=DECIMAL},
+      ETYPE = #{record.etype,jdbcType=DECIMAL},
+      OWNERID = #{record.ownerid,jdbcType=DECIMAL},
+      OWNERTYPE = #{record.ownertype,jdbcType=DECIMAL},
+      SYSTEMNAME = #{record.systemname,jdbcType=VARCHAR},
+      UPDATETIME = #{record.updatetime,jdbcType=TIMESTAMP}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.holley.mvc.model.ObjEnterprise" >
+    update obj_enterprise
+    <set >
+      <if test="disc != null" >
+        DISC = #{disc,jdbcType=VARCHAR},
+      </if>
+      <if test="abbr != null" >
+        ABBR = #{abbr,jdbcType=VARCHAR},
+      </if>
+      <if test="ecode != null" >
+        ECODE = #{ecode,jdbcType=VARCHAR},
+      </if>
+      <if test="corporationid != null" >
+        CORPORATIONID = #{corporationid,jdbcType=VARCHAR},
+      </if>
+      <if test="business != null" >
+        BUSINESS = #{business,jdbcType=DECIMAL},
+      </if>
+      <if test="grade != null" >
+        GRADE = #{grade,jdbcType=DECIMAL},
+      </if>
+      <if test="activities != null" >
+        ACTIVITIES = #{activities,jdbcType=VARCHAR},
+      </if>
+      <if test="city != null" >
+        CITY = #{city,jdbcType=DECIMAL},
+      </if>
+      <if test="registernum != null" >
+        REGISTERNUM = #{registernum,jdbcType=VARCHAR},
+      </if>
+      <if test="registeraddress != null" >
+        REGISTERADDRESS = #{registeraddress,jdbcType=VARCHAR},
+      </if>
+      <if test="productionaddress != null" >
+        PRODUCTIONADDRESS = #{productionaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="linkman != null" >
+        LINKMAN = #{linkman,jdbcType=VARCHAR},
+      </if>
+      <if test="telephone != null" >
+        TELEPHONE = #{telephone,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null" >
+        MOBILE = #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        EMAIL = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="fax != null" >
+        FAX = #{fax,jdbcType=VARCHAR},
+      </if>
+      <if test="zipcode != null" >
+        ZIPCODE = #{zipcode,jdbcType=VARCHAR},
+      </if>
+      <if test="legalperson != null" >
+        LEGALPERSON = #{legalperson,jdbcType=VARCHAR},
+      </if>
+      <if test="alipay != null" >
+        ALIPAY = #{alipay,jdbcType=VARCHAR},
+      </if>
+      <if test="wechat != null" >
+        WECHAT = #{wechat,jdbcType=VARCHAR},
+      </if>
+      <if test="passauthentication != null" >
+        PASSAUTHENTICATION = #{passauthentication,jdbcType=DECIMAL},
+      </if>
+      <if test="hascertificate != null" >
+        HASCERTIFICATE = #{hascertificate,jdbcType=DECIMAL},
+      </if>
+      <if test="gettime != null" >
+        GETTIME = #{gettime,jdbcType=VARCHAR},
+      </if>
+      <if test="annualsales != null" >
+        ANNUALSALES = #{annualsales,jdbcType=VARCHAR},
+      </if>
+      <if test="annualtax != null" >
+        ANNUALTAX = #{annualtax,jdbcType=VARCHAR},
+      </if>
+      <if test="annualaddedenergy != null" >
+        ANNUALADDEDENERGY = #{annualaddedenergy,jdbcType=DECIMAL},
+      </if>
+      <if test="annualenergy != null" >
+        ANNUALENERGY = #{annualenergy,jdbcType=DECIMAL},
+      </if>
+      <if test="longitude != null" >
+        LONGITUDE = #{longitude,jdbcType=DECIMAL},
+      </if>
+      <if test="latitude != null" >
+        LATITUDE = #{latitude,jdbcType=DECIMAL},
+      </if>
+      <if test="etype != null" >
+        ETYPE = #{etype,jdbcType=DECIMAL},
+      </if>
+      <if test="ownerid != null" >
+        OWNERID = #{ownerid,jdbcType=DECIMAL},
+      </if>
+      <if test="ownertype != null" >
+        OWNERTYPE = #{ownertype,jdbcType=DECIMAL},
+      </if>
+      <if test="systemname != null" >
+        SYSTEMNAME = #{systemname,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null" >
+        UPDATETIME = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where EID = #{eid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.holley.mvc.model.ObjEnterprise" >
+    update obj_enterprise
+    set DISC = #{disc,jdbcType=VARCHAR},
+      ABBR = #{abbr,jdbcType=VARCHAR},
+      ECODE = #{ecode,jdbcType=VARCHAR},
+      CORPORATIONID = #{corporationid,jdbcType=VARCHAR},
+      BUSINESS = #{business,jdbcType=DECIMAL},
+      GRADE = #{grade,jdbcType=DECIMAL},
+      ACTIVITIES = #{activities,jdbcType=VARCHAR},
+      CITY = #{city,jdbcType=DECIMAL},
+      REGISTERNUM = #{registernum,jdbcType=VARCHAR},
+      REGISTERADDRESS = #{registeraddress,jdbcType=VARCHAR},
+      PRODUCTIONADDRESS = #{productionaddress,jdbcType=VARCHAR},
+      LINKMAN = #{linkman,jdbcType=VARCHAR},
+      TELEPHONE = #{telephone,jdbcType=VARCHAR},
+      MOBILE = #{mobile,jdbcType=VARCHAR},
+      EMAIL = #{email,jdbcType=VARCHAR},
+      FAX = #{fax,jdbcType=VARCHAR},
+      ZIPCODE = #{zipcode,jdbcType=VARCHAR},
+      LEGALPERSON = #{legalperson,jdbcType=VARCHAR},
+      ALIPAY = #{alipay,jdbcType=VARCHAR},
+      WECHAT = #{wechat,jdbcType=VARCHAR},
+      PASSAUTHENTICATION = #{passauthentication,jdbcType=DECIMAL},
+      HASCERTIFICATE = #{hascertificate,jdbcType=DECIMAL},
+      GETTIME = #{gettime,jdbcType=VARCHAR},
+      ANNUALSALES = #{annualsales,jdbcType=VARCHAR},
+      ANNUALTAX = #{annualtax,jdbcType=VARCHAR},
+      ANNUALADDEDENERGY = #{annualaddedenergy,jdbcType=DECIMAL},
+      ANNUALENERGY = #{annualenergy,jdbcType=DECIMAL},
+      LONGITUDE = #{longitude,jdbcType=DECIMAL},
+      LATITUDE = #{latitude,jdbcType=DECIMAL},
+      ETYPE = #{etype,jdbcType=DECIMAL},
+      OWNERID = #{ownerid,jdbcType=DECIMAL},
+      OWNERTYPE = #{ownertype,jdbcType=DECIMAL},
+      SYSTEMNAME = #{systemname,jdbcType=VARCHAR},
+      UPDATETIME = #{updatetime,jdbcType=TIMESTAMP}
+    where EID = #{eid,jdbcType=INTEGER}
+  </update>
+  <select id="selectEnterpriseByPage" resultMap="BaseResultMap">
+  	select
+  	 <include refid="Base_Column_List" />
+  	from obj_enterprise
+  	where 1=1
+  	<if test="eid != null">
+  		and EID = #{eid}
+  	</if>
+  </select>
+</mapper>
